@@ -1,10 +1,5 @@
 let tempc = 0
 let tempF = 0
-/**
- * Temperature Conversion
- * 
- *  TempF = TempC *1.B +32
- */
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(tempc)
 })
